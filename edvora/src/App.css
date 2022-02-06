@@ -10,12 +10,11 @@
 }
 .sidebar{
   display: table-cell;
-  width: 15%;
+  width: 25%;
   vertical-align: top;
 }
 .main-content{
   display: table-cell;
-  width: 85%;
+  width: 75%;
   vertical-align: top;
-  padding: 10px;
 }

@@ -5,8 +5,6 @@ const Header = () => {
   <div className='header'>
       <h1>Edvora</h1>
       <h3>Products</h3>
-      <h4>Product Name</h4>
-      <hr />
   </div>
   );
 };

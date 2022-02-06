@@ -1,4 +1,5 @@
 import './App.css';
+import Container from './components/Container';
 import Header from './components/Header'
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
       </div>
       <div className='main-content'>
         <Header />
+        <Container />
+        <Container />
       </div>
     </div>
   );
