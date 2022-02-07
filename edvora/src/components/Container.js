@@ -3,7 +3,7 @@ import '../css/container.css'
 const Container = () => {
   return (
       <div>
-          <h4>Product Name</h4>
+          <h5>Product Name</h5>
       <hr />
           <div className='container'>
 

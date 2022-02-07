@@ -13,9 +13,11 @@ hr{
     border: 1px solid grey;
     width: 85%;
 }
-h4{
+h5{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 10px;
     margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
 }

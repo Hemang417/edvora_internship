@@ -4,11 +4,11 @@ import '../css/sidebar.css';
 const Sidebar = () => {
   return (
   <div className='sidebar-container'>
-      <h4>Filter</h4>
+      <h4>Filters</h4>
       <hr />
-      <div className='product-div'>Products<div className='dropdown-arrow'></div></div>
-      <div className='product-div'>State<div className='dropdown-arrow'></div></div>
-      <div className='product-div'>City<div className='dropdown-arrow'></div></div>
+      <div className='product-div'>Products <div className='dropdown-arrow'></div></div>
+      <div className='product-div'>State <div className='dropdown-arrow'></div></div>
+      <div className='product-div'>City <div className='dropdown-arrow'></div></div>
   </div>
   );
 };

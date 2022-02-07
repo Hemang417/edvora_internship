@@ -13,9 +13,10 @@
     padding-left: 15px;
 }
 h4{
-    color: white;
+    color: #CBCBCB;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
     font-weight: 100;
 }
 .product-div{
@@ -30,16 +31,13 @@ h4{
     -o-border-radius: 5px;
     margin-top: 15px;
 }
-.dropdown-arrow{
+.dropdown-arrow::after{
+    content: "▼";
     position: absolute;
-    width: 16px;
-    height: 16px;
-    background-color: #A5A5A5;
-    left: 220px;
-    top: 107px;
-    transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
+    left: 245px;
+    margin-top: -18px;
+    color: grey;
+}
+hr{
+    color: #CBCBCB;
 }
