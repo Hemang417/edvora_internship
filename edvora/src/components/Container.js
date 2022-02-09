@@ -16,16 +16,28 @@ const Container = () => {
         .catch(err => console.log(err));
     },[])   
                 return (
+                    <>
                     <div>
                         <h5>Product Name</h5>
                     <hr />
+                    
+                        
                         <div className='container'>
-                        {(products.products !== undefined) ? products.products.map((elem) => {
-                            <div className='product-container-div'>{elem.product_name}</div>
-                        }): console.log("error while fetching data")}
+                        {products.map((elem) => {
+                            <>
+                            <div className='product-container-div'>
+                                {elem.product_name}
+                                </div>
+                            </>
+                            })}
+                        
                     </div>
+                    
+                    
                 </div>
+                </>
                 )
+                
             
 };
     
